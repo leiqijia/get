@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>massage.html</title>
+	<script th:src="@{/js/jquery.min.js}"></script>
+	<script th:src="@{/js/message.js}"></script>
+  </head>
+  <body>
+    <table style="width:800px; align:center;" id="message_table"><button id="xs">显示</button>
+    	<tr style="width:200px;"><td>标题</td><td>详细信息</td><td>创建时间</td><td>操作</td></tr>
+    	<tr><td id="bt"></td><td id="xxxx"></td><td id="cjsj"></td><td id="cz"></td></tr>
+    </table>
+    	<div id="mtk">
+    	<p>标题：<input type='text' id='xiugai_title'/></p>
+  		<p>内容：<input type='text' id='xiugai_content'/></p><label id="id"></label>
+  		<button id="qrxg">确认修改</button><button id="qrtj">确认添加</button>
+  		</div>
+  		<form>
+  			<input type="file" name="file"/>
+  			<input type="submit"/>
+  		</form>
+  </body>
+
+</html>
